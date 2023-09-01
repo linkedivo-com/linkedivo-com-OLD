@@ -1,0 +1,15 @@
+{
+  "name": "linkedivo",
+  "version": "1.0.0",
+  "description": "Where Connection Happen",
+  "main": "index.js",
+  "scripts": {
+     "sass": "node-sass -w sass/ -o resources/styles" 
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
