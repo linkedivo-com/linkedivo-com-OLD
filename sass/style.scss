@@ -1,2 +1,15 @@
-@import 'base/_base.scss';
-@import 'base/_typography';
+@import 'abstracts/variables';
+@import 'abstracts/colors';
+
+@import 'base/base.scss';
+@import 'base/typography';
+
+@import 'utilities/container';
+
+@import 'components/buttons';
+
+@import 'pages/main-page.scss';
+
+@import 'responsive/media-1024';
+@import 'responsive/media-800';
+@import 'responsive/media-500';

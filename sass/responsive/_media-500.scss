@@ -1,0 +1,26 @@
+@media (max-width:500px) {
+
+    // header
+    .header {
+        .header-nav {
+            .container {
+                .header-nav-wrapper {
+                    .nav-right-side {
+                        .header-nav-buttons {
+
+                            button {
+                                display: none;
+                            }
+
+                            .burger-menu {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+}

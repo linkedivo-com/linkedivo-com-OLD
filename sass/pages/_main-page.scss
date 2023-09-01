@@ -1,0 +1,130 @@
+// header
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    // header navbar
+    .header-nav {
+        width: 100%;
+        padding: 10px 0px;
+
+        .container {
+            width: 100%;
+
+            .header-nav-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .nav-left-side {
+                    width: 100%;
+
+                    a {
+                        text-transform: capitalize;
+                        font-weight: 600;
+                    }
+                }
+
+                .nav-right-side {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+
+                    .header-nav-buttons {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-left: 50px;
+
+                        .button {
+                            margin-right: 10px;
+                        }
+
+                        .burger-menu {
+                            justify-content: center;
+                            align-items: center;
+                            display: none;
+
+                            i {
+                                font-size: 20px;
+                            }
+                        }
+
+                    }
+
+                    .header-nav-location {
+                        i {
+                            margin-right: 5px;
+                            font-size: 20px;
+                        }
+
+                        span {
+                            margin-right: 5px;
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    // hero
+    .hero {
+        width: 100%;
+
+        .container {
+            width: 100%;
+
+            .hero-wrapper {
+                width: 100%;
+                padding: 50px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .hero-content {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 100px 0;
+                    text-align: center;
+
+                    .hero-image {
+
+                        img {
+                            max-width: 600px;
+                            width: 100%;
+
+                        }
+                    }
+
+                    h1 {
+                        font-weight: 600;
+                        font-size: 30px;
+                        padding: 20px;
+                    }
+
+                    p {
+                        max-width: 850px;
+                    }
+
+                    .hero-arrow {
+                        position: absolute;
+                        left: 50%;
+                        top: 95%;
+                        transform: translateY(-50%);
+
+                        i {
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
