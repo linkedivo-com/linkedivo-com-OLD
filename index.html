@@ -69,20 +69,54 @@
             <div class="container">
                 <div class="hero-wrapper">
                     <section class="hero-content">
-
                         <div class="hero-image">
                             <img src="resources/images/linkedivo-logo.svg" alt="Linkedivo Logo">
                         </div>
+                        <!-- search box -->
                         <div class="search-box">
-                            <div class="search-box-left">
-                                <i class="fa fa-search"></i>
+                            <div class="search-box-options">
+                                <i class="fas fa-angle-down"></i>
+
+                                <i class="fas fa-angle-up "></i>
+                            </div>
+                            <div class="search-box-text">
+
                                 <input type="text" placeholder="Search name, category, country...">
                             </div>
-                            <div class="search-box-right">
+                            <div class="search-box-search">
                                 <button class="button">Search</button>
                             </div>
                         </div>
                         <h1>Where Connection Happen</h1>
+                        <!-- advance search option -->
+                        <div class="advanced-search">
+
+                            <div class="search-field-wrapper search-country">
+                                <div>
+                                    <input type="text" class="search-field " placeholder="Select Country"></input>
+                                    <i class="fa fa-globe"></i>
+                                </div>
+                                <ul></ul>
+                            </div>
+
+                            <div class="search-field-wrapper search-city">
+                                <div>
+                                    <input type="text" class="search-field " placeholder="Select City"></input>
+                                    <i class="fa fa-city"></i>
+
+                                </div>
+                                <ul></ul>
+                            </div>
+
+                            <div class=" search-field-wrapper search-category">
+                                <div><input type="text" class=" search-field " placeholder="Select Category"></input>
+                                    <i class="fa fa-list-alt"></i>
+                                </div>
+                                <ul></ul>
+                            </div>
+                        </div>
+
+
                     </section>
 
 
@@ -106,7 +140,7 @@
     </footer>
 
     <!-- scripts -->
-    <script src="resources/scripts/scripts.js"></script>
+    <script src="resources/scripts/advanced-search.js"></script>
 </body>
 
 </html>

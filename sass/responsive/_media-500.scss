@@ -1,4 +1,4 @@
-@media (max-width:500px) {
+@media (max-width:550px) {
 
     // header
     .header {
@@ -44,16 +44,24 @@
                         }
 
                         .search-box {
-                            width: 350px;
+                            width: 360px;
 
-                            .search-box-left {
+                            .search-box-text {
                                 input {
                                     width: 200px;
                                 }
                             }
 
-                            .search-box-right {
+                            .search-box-search {
                                 width: 80px;
+                            }
+
+                            .search-box-options {
+
+                                i {
+                                    width: 80px;
+
+                                }
                             }
 
                         }
@@ -66,15 +74,11 @@
     .footer {
 
 
-
         .footer-wrapper {
-
-
             .container {
-
+                flex-direction: column;
 
                 .footer-links {
-
 
                     li {
                         padding: 0 5px;

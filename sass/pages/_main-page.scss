@@ -3,7 +3,8 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    overflow: scroll;
+    min-height: 100vh;
 }
 
 // header
@@ -84,7 +85,10 @@ body {
 
     // hero
     .hero {
+        padding: 200px 0;
         width: 100%;
+        display: flex;
+        align-items: center;
 
         .container {
             width: 100%;
@@ -129,27 +133,42 @@ body {
                         border: 1px solid $dark-color;
                         border-radius: $button-radius;
                         padding: 10px 0px;
-                        padding-left: 15px;
                         overflow: hidden;
 
-                        .search-box-left {
+                        .search-box-text {
                             display: flex;
                             align-items: center;
-
-                            i {
-                                font-size: 20px;
-                                margin-right: 10px;
-                            }
+                            justify-content: start;
 
                             input {
                                 border: none;
                                 background-color: transparent;
                                 outline: none;
-                                width: 390px;
+                                width: 340px;
                             }
                         }
 
-                        .search-box-right {
+                        .search-box-options {
+                            height: 50px;
+                            background-color: $dark-color;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 5px;
+                            width: 50px;
+
+                            &>i:nth-child(2) {
+                                display: none;
+                            }
+
+                            i {
+                                justify-content: center;
+                                width: 100px;
+                                color: $light-color;
+                            }
+                        }
+
+                        .search-box-search {
                             width: 100px;
                             height: 50px;
                             background-color: $dark-color;
@@ -163,11 +182,67 @@ body {
                                 color: $light-color;
                                 background: transparent;
                             }
+                        }
+                    }
+
+                    .advanced-search {
+                        display: none;
+                        grid-template-columns: repeat(3, 1fr);
+                        grid-gap: 15px;
+                        padding: 20px;
+                        margin-top: 20px;
+
+                        .search-field-wrapper {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: start;
+
+
+                            ul {
+                                width: 100%;
+                                display: flex;
+                                justify-content: start;
+                                flex-direction: column;
+                                align-items: start;
+                                text-align: left;
+                                min-height: 150px;
+                                max-height: 150px;
+                                overflow: scroll;
+                                padding-top: 5px;
+
+                                li {
+                                    width: 100%;
+                                    padding: 7px;
+                                    border-bottom: 1px solid gray;
+
+                                    &:last-child {
+                                        border: none;
+                                    }
+                                }
+
+                            }
+
+                            div {
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                border-bottom: 2px solid $dark-color;
+                                padding-bottom: 7px;
+                                margin-bottom: 7px;
+
+                                i {
+                                    padding: 5px;
+                                }
+
+                                i:nth-child(3) {
+                                    display: none;
+                                }
+                            }
+
 
                         }
-
-
-
                     }
                 }
             }
@@ -180,8 +255,9 @@ body {
 
 .footer {
     width: 100%;
-
-
+    display: flex;
+    align-self: center;
+    justify-content: center;
 
     .footer-wrapper {
         width: 100%;

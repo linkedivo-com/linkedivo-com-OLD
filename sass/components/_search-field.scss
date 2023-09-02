@@ -1,0 +1,22 @@
+.search-field-wrapper {
+
+    padding: 7px 18px;
+    border-radius: $search-radius;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 2px;
+    border: 1px solid $dark-color;
+    background-color: $light-color;
+    color: $dark-color;
+    font-size: 12px;
+    width: 100%;
+
+    .search-field {
+        outline: none;
+        border: none;
+        background: none;
+        width: 100%;
+    }
+}
