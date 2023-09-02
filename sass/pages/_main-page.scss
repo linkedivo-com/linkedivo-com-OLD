@@ -112,6 +112,13 @@ body {
                         }
                     }
 
+                    h1 {
+                        text-align: center;
+                        font-weight: 200;
+                        font-size: 23px;
+                        padding-top: 30px;
+                    }
+
                     .search-box {
                         margin-top: 30px;
                         height: 45px;
@@ -159,6 +166,8 @@ body {
 
                         }
 
+
+
                     }
                 }
             }
@@ -173,12 +182,6 @@ body {
     width: 100%;
 
 
-    h1 {
-        text-align: center;
-        font-weight: 200;
-        font-size: 19px;
-        padding-bottom: 10px;
-    }
 
     .footer-wrapper {
         width: 100%;

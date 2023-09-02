@@ -114,6 +114,11 @@ body {
         .main .hero .container .hero-wrapper .hero-content .hero-image img {
           max-width: 580px;
           width: 100%; }
+        .main .hero .container .hero-wrapper .hero-content h1 {
+          text-align: center;
+          font-weight: 200;
+          font-size: 23px;
+          padding-top: 30px; }
         .main .hero .container .hero-wrapper .hero-content .search-box {
           margin-top: 30px;
           height: 45px;
@@ -152,11 +157,6 @@ body {
 
 .footer {
   width: 100%; }
-  .footer h1 {
-    text-align: center;
-    font-weight: 200;
-    font-size: 19px;
-    padding-bottom: 10px; }
   .footer .footer-wrapper {
     width: 100%;
     background: #1e1e1e;
