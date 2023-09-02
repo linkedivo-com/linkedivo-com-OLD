@@ -27,4 +27,51 @@
         }
     }
 
+    .main {
+
+        // hero
+        .hero {
+            .container {
+                .hero-wrapper {
+                    .hero-content {
+                        .hero-image {
+                            img {
+                                max-width: 460px;
+                            }
+                        }
+
+                        .search-box {
+                            width: 460px;
+
+                            .search-box-left {
+                                input {
+                                    width: 300px;
+                                }
+                            }
+
+                            .search-box-right {
+                                width: 90px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+
+        .footer-wrapper {
+
+            .container {
+
+                flex-direction: column;
+
+                .footer-links {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }

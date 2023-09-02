@@ -1,7 +1,14 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
 // header
 .header {
     width: 100%;
-    height: 100vh;
     position: relative;
 
     // header navbar
@@ -70,6 +77,10 @@
             }
         }
     }
+}
+
+// main 
+.main {
 
     // hero
     .hero {
@@ -80,7 +91,6 @@
 
             .hero-wrapper {
                 width: 100%;
-                padding: 50px 0;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -91,7 +101,6 @@
                     flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                    padding: 100px 0;
                     text-align: center;
 
                     .hero-image {
@@ -103,25 +112,100 @@
                         }
                     }
 
-                    h1 {
-                        font-weight: 600;
-                        font-size: 30px;
-                        padding: 20px;
-                    }
+                    .search-box {
+                        margin-top: 30px;
+                        height: 45px;
+                        width: 600px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border: 1px solid $dark-color;
+                        border-radius: $button-radius;
+                        padding: 10px 0px;
+                        padding-left: 15px;
+                        overflow: hidden;
 
-                    p {
-                        max-width: 850px;
-                    }
+                        .search-box-left {
+                            display: flex;
+                            align-items: center;
 
-                    .hero-arrow {
-                        position: absolute;
-                        left: 50%;
-                        top: 95%;
-                        transform: translateY(-50%);
+                            i {
+                                font-size: 20px;
+                                margin-right: 10px;
+                            }
 
-                        i {
-                            font-size: 30px;
+                            input {
+                                border: none;
+                                background-color: transparent;
+                                outline: none;
+                                width: 440px;
+                            }
                         }
+
+                        .search-box-right {
+                            width: 100px;
+                            height: 50px;
+                            background-color: $dark-color;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            button {
+                                outline: 0;
+                                border: 0;
+                                color: $light-color;
+                                background: transparent;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// footer
+
+.footer {
+    width: 100%;
+
+
+    h1 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+
+    .footer-wrapper {
+        width: 100%;
+        background: $dark-color;
+        color: $light-color;
+
+        .container {
+            padding: 10px 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .footer-links {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    padding: 0 12px;
+                    cursor: pointer;
+
+                    &:nth-child(2),
+                    &:nth-child(3) {
+                        border-left: 1px solid $light-color;
+
                     }
                 }
             }

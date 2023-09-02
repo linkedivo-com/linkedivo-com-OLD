@@ -23,4 +23,64 @@
         }
     }
 
+    .main {
+
+        // hero
+        .hero {
+            .container {
+                .hero-wrapper {
+                    .hero-content {
+                        .hero-image {
+                            img {
+                                max-width: 350px;
+                            }
+                        }
+
+                        .search-box {
+                            width: 350px;
+
+                            .search-box-left {
+                                input {
+                                    width: 200px;
+                                }
+                            }
+
+                            .search-box-right {
+                                width: 80px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+
+
+
+        .footer-wrapper {
+
+
+            .container {
+
+
+                .footer-links {
+
+
+                    li {
+                        padding: 0 5px;
+                        cursor: pointer;
+
+                        &:nth-child(2),
+                        &:nth-child(3) {
+                            border-left: 1px solid $light-color;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
