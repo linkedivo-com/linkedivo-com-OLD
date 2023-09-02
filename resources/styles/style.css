@@ -6,7 +6,7 @@
   box-sizing: border-box; }
 
 body {
-  font-size: 16px;
+  font-size: 14px;
   background: #F5F5F5; }
 
 p {
@@ -112,12 +112,12 @@ body {
         align-items: center;
         text-align: center; }
         .main .hero .container .hero-wrapper .hero-content .hero-image img {
-          max-width: 600px;
+          max-width: 580px;
           width: 100%; }
         .main .hero .container .hero-wrapper .hero-content .search-box {
           margin-top: 30px;
           height: 45px;
-          width: 600px;
+          width: 550px;
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -136,7 +136,7 @@ body {
               border: none;
               background-color: transparent;
               outline: none;
-              width: 440px; }
+              width: 390px; }
           .main .hero .container .hero-wrapper .hero-content .search-box .search-box-right {
             width: 100px;
             height: 50px;
@@ -155,8 +155,8 @@ body {
   .footer h1 {
     text-align: center;
     font-weight: 200;
-    font-size: 20px;
-    padding-bottom: 15px; }
+    font-size: 19px;
+    padding-bottom: 10px; }
   .footer .footer-wrapper {
     width: 100%;
     background: #1e1e1e;
