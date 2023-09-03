@@ -9,6 +9,9 @@ advancedSearchOpen.addEventListener(`click`, function () {
     advancedSearchOption.style.display = `grid`;
     this.style.display = `none`;
     advancedSearchClose.style.display = `grid`;
+    document.querySelector(`.hero`).style.marginTop = `90px`; document.querySelector(`.hero`).style.marginBottom = `0px`;
+
+
 })
 
 advancedSearchClose.addEventListener(`click`, function () {
@@ -16,6 +19,9 @@ advancedSearchClose.addEventListener(`click`, function () {
     advancedSearchOption.style.display = `none`;
     this.style.display = `none`;
     advancedSearchOpen.style.display = `grid`;
+    document.querySelector(`.hero`).style.marginTop = `0px`;
+    document.querySelector(`.hero`).style.marginBottom = `100px`;
+
 })
 
 // advanced search list creation  ///////////////////////////////
