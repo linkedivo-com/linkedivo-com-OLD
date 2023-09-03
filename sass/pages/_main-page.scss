@@ -166,6 +166,7 @@ body {
                                 justify-content: center;
                                 width: 100px;
                                 color: $light-color;
+                                cursor: pointer;
                             }
                         }
 
@@ -216,6 +217,7 @@ body {
                                     width: 100%;
                                     padding: 7px;
                                     border-bottom: 1px solid gray;
+                                    cursor: pointer;
 
                                     &:last-child {
                                         border: none;

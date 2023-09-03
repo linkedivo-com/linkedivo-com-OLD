@@ -176,7 +176,8 @@ body {
             .main .hero .container .hero-wrapper .hero-content .search-box .search-box-options i {
               justify-content: center;
               width: 100px;
-              color: #F5F5F5; }
+              color: #F5F5F5;
+              cursor: pointer; }
           .main .hero .container .hero-wrapper .hero-content .search-box .search-box-search {
             width: 100px;
             height: 50px;
@@ -214,7 +215,8 @@ body {
               .main .hero .container .hero-wrapper .hero-content .advanced-search .search-field-wrapper ul li {
                 width: 100%;
                 padding: 7px;
-                border-bottom: 1px solid gray; }
+                border-bottom: 1px solid gray;
+                cursor: pointer; }
                 .main .hero .container .hero-wrapper .hero-content .advanced-search .search-field-wrapper ul li:last-child {
                   border: none; }
             .main .hero .container .hero-wrapper .hero-content .advanced-search .search-field-wrapper div {
