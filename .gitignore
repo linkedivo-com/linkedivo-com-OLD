@@ -6,12 +6,10 @@
 
 # dependencies
 /node_modules
-/sass
+
 
 
 # misc
-.package-lock.json
-.package.json
 .DS_Store
 
 
